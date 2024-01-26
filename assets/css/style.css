@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #0D1B2A;
+    user-select: none;
+    padding: 80px 0;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    color: #dfdfdf;
+    font-size: 24px;
+}
+
+.map-container {
+    padding: 0 16vw;
+}
+
+.map-container .container {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2f3f;
+    box-shadow: 0px 0px 32px rgba(3, 4, 5, 0.8);
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.map-container .map {
+    position: relative;
+}
+
+.map-container .map img {
+    width: 100%;
+    height: 100%;
+}
+
+.map-container .map div {
+    position: absolute;
+    background-color: #dfdfdf;
+    opacity: 0.4;
+}
+
+.map-container .map div:hover {
+    background-color: #7f0c96;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.map-container .map div:active {
+    background-color: #4b0758;
+    opacity: 0.7;
+}
+
+.spawn {
+    top: 49%;
+    left: 46.2%;
+    width: 6%;
+    height: 12%;
+    border-radius: 50%;
+}
+
+.indio {
+    top: 56%;
+    left: 61%;
+    width: 10%;
+    height: 20%;
+    border-radius: 50%;
+}
+
+.desierto {
+    top: 67%;
+    left: 0%;
+    width: 20%;
+    height: 30%;
+}
+
+.moderno {
+    top: 23%;
+    left: 16%;
+    width: 8%;
+    height: 16%;
+}
+
+.map-container .info {
+    padding: 20px 24px;
+    display: none;
+}
+
+.map-container .info h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #dfdfdf;
+    margin-bottom: 20px;
+}
+
+.map-container .down {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.map-container .info img {
+    width: 80%;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.map-container .text {
+    color: #c7c7c7;
+    text-wrap: pretty;
+    font-size: 24px;
+}
+
+.map-container .text h4 {
+    color: #a80dc7;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.map-container .text p {
+    padding: 0 4px;
+}
+
+.map-container .text h4 p {
+    color: #dfdfdf;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .map-container {
+        padding: 0 4vw;
+    }
+
+    .map-container .info img {
+        width: 95%;
+    }
+}

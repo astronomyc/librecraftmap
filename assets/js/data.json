@@ -1,0 +1,14 @@
+{
+  "spawn": [
+    {
+      "name": "Juan",
+      "imagesrc": 25,
+      "description": "Ciudad A"
+    },
+    {
+      "name": "Juan",
+      "imagesrc": 25,
+      "description": "Ciudad A"
+    }
+  ]
+}

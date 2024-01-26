@@ -1,0 +1,26 @@
+{
+    "spawn": {
+        "name": "Spawn",
+        "imagesrc": "spawn.png",
+        "description": "Este es el punto de partida donde los jugadores se introducen por primera vez en el servidor.",
+        "fly": "Desactivado"
+    },
+    "indio": {
+        "name": "Indio",
+        "imagesrc": "indio.png",
+        "description": "Indio es una ubicación para capturar KOTH y obtener recompensas. La capacidad de vuelo con rango está desactivada en esta área semi cerrada.",
+        "fly": "Desactivado"
+    },
+    "desierto": {
+        "name": "Desierto",
+        "imagesrc": "desierto.png",
+        "description": "Este extenso desierto lleno de arena alberga el lugar más famoso para realizar enfrentamientos PvP.",
+        "fly": "Activado"
+    },
+    "moderno": {
+        "name": "Moderno",
+        "imagesrc": "moderno.png",
+        "description": "Un lugar con edificios de cuarzo, perfecto para escapar y perder a tus oponentes.",
+        "fly": "Activado"
+    }
+}
